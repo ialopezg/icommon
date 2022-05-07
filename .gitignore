@@ -1,0 +1,16 @@
+#  Editors & IDEs
+## JetBrain Software
+.idea
+
+#  Dependency Manager Files
+## NPM (NodeJS)
+node_modules
+package-lock.json
+
+#  Generated Files
+## Build Process
+dist
+
+#  Other Files
+## Mac OS X Files
+.DS_Store
