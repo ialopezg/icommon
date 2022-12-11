@@ -1,2 +1,3 @@
-# js-lib-starter-kit
-JavaScript Library Starter Kit
+# CommonJS
+
+> NodeJS Common libraries, functions, and helpers
