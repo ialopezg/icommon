@@ -1,13 +1,20 @@
 {
   "name": "js-lib-starter-kit",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "JavaScript Library Starter Kit for modern apps and libraries.",
   "main": "index.js",
   "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "rollup -c",
+    "prebuild": "rimraf lib",
+    "build": "npm run prebuild && tsc -p tsconfig.prod.json",
     "lint": "eslint $PWD/'src/**/*.js'",
-    "lint:fix": "prettier-eslint $PWD/'src/**/*.js' --write"
+    "lint:fix": "prettier-eslint $PWD/'src/**/*.js' --write",
+    "test": "nyc --require ts-node/register mocha src/**/*.spec.ts --reporter spec",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "release": "standard-version",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -22,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ialopezg/js-lib-starter-kit.git"
+    "url": "git+https://github.com/ialopezg/CommonJS.git"
   },
   "keywords": [
     "javascript",
@@ -33,25 +40,68 @@
   "author": "Isidro A. Lopez G. <me@ialopezg.com> (https://ialopezg.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ialopezg/js-lib-starter-kit/issues"
+    "url": "https://github.com/ialopezg/CommonJS/issues"
   },
-  "homepage": "https://github.com/ialopezg/js-lib-starter-kit#readme",
+  "homepage": "https://github.com/ialopezg/CommonJS#readme",
+  "peerDependencies": {
+    "bcrypt": "^5.1.0"
+  },
   "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1",
-    "@rollup/plugin-babel": "^5.2.1",
-    "@rollup/plugin-node-resolve": "^10.0.0",
-    "eslint": "^7.13.0",
-    "eslint-config-standard": "^16.0.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.5.1",
-    "prettier-eslint": "^11.0.0",
-    "prettier-eslint-cli": "^5.0.0",
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^18.11.9",
+    "@types/sinon": "^10.0.13",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "chai": "^4.3.7",
+    "coveralls": "^3.1.1",
+    "eslint": "^8.29.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.2",
+    "mocha": "^10.1.0",
+    "nodemon": "^2.0.20",
+    "nyc": "^15.1.0",
+    "prettier": "^2.8.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.33.2",
-    "rollup-plugin-terser": "^7.0.2"
+    "sinon": "^15.0.0",
+    "sinon-chai": "^3.7.0",
+    "standard-version": "^9.5.0",
+    "ts-loader": "^9.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "nyc": {
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules/"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "reporter": [
+      "text-summary",
+      "html"
+    ],
+    "sourceMap": true,
+    "instrument": true
   }
 }

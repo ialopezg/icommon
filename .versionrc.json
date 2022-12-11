@@ -1,0 +1,14 @@
+{
+  "types": [
+    { "type": "feat", "section": "Features" },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "chore", "hidden": true },
+    { "type": "docs", "section": "Documentation" },
+    { "type": "style", "hidden": true },
+    { "type": "refactor", "section": "Refactor" },
+    { "type": "perf", "hidden": true },
+    { "type": "test", "hidden": true }
+  ],
+  "commitUrlFormat": "https://github.com/ialopezg/CommonJS/commits/{{hash}}",
+  "compareUrlFormat": "https://github.com/ialopezg/CommonJS/compare/{{previousTag}}...{{currentTag}}"
+}
