@@ -1,6 +1,6 @@
 {
   "name": "js-lib-starter-kit",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "JavaScript Library Starter Kit for modern apps and libraries.",
   "main": "index.js",
   "scripts": {
