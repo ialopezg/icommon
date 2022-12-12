@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/ialopezg/CommonJS/compare/v1.0.4...v1.0.5) (2022-12-12)
+
+
+### Bug Fixes
+
+* string helper ([4acc143](https://github.com/ialopezg/CommonJS/commits/4acc14388c740c82397eef70a8466da7932020a7))
+
 ### [1.0.4](https://github.com/ialopezg/CommonJS/compare/v1.0.3...v1.0.4) (2022-12-12)
 
 
