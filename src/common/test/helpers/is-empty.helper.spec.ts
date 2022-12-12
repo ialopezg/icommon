@@ -3,7 +3,11 @@ import { expect } from 'chai';
 import { isEmpty } from '../../helpers';
 
 describe('isEmpty', () => {
-  it('should return true when empty object is passed', function () {
+  it('should return true when undefined value is passed', function () {
+    expect(isEmpty(undefined)).to.be.true;
+  });
+
+  it('should return true when null value is passed', function () {
     expect(isEmpty(undefined)).to.be.true;
   });
 
@@ -27,7 +31,11 @@ describe('isEmpty', () => {
     expect(isEmpty({ notEmpty: true })).to.be.false;
   });
 
-  it('should return false when a function, boolean, date, or number value is passed', function () {
+  it('should return false when not empty array is passed', function () {
+    expect(isEmpty([1, 2, 3])).to.be.false;
+  });
+
+  it('should return false when a function; boolean, date, or number value is passed', function () {
     expect(isEmpty(true)).to.be.false;
     expect(isEmpty(1)).to.be.false;
     expect(isEmpty(new Date())).to.be.false;

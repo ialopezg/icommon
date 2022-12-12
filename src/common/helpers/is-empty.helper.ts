@@ -2,6 +2,7 @@ import { isArray } from './is-array.helper';
 import { isBoolean } from './is-boolean.helper';
 import { isDate } from './is-date.helper';
 import { isFunction } from './is-function.helper';
+import { isNil } from './is-nil.helper';
 import { isNumber } from './is-number.helper';
 import { isString } from './is-string.helper';
 import { isUndefined } from './is-undefined.helper';
@@ -15,7 +16,7 @@ import { isUndefined } from './is-undefined.helper';
  */
 export const isEmpty = (value: any): boolean => {
   // undefined or null
-  if (isUndefined(value)) {
+  if (isNil(value)) {
     return true;
   }
 
