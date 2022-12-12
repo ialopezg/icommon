@@ -1,5 +1,3 @@
-import * as crypto from 'crypto';
-
 /**
  * Capitalize first char of a word.
  *
@@ -11,15 +9,4 @@ import * as crypto from 'crypto';
  */
 export const capitalizeFirst = (text: string) => {
   return `${text.charAt(0).toUpperCase()}${text.slice(1)}`;
-};
-
-/**
- * Generates a random string with given size length.
- *
- * @param length String length.
- *
- * @returns A random string.
- */
-export const randomString = (length: number): string => {
-  return crypto.randomBytes(length).toString('base64');
 };
