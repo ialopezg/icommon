@@ -1,5 +1,4 @@
 export * from './get-value-for.helper';
-export * from './hash.helper';
 export * from './is-array.helper';
 export * from './is-boolean.helper';
 export * from './is-constructor.helper';
