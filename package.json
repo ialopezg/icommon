@@ -44,7 +44,7 @@
     "url": "https://github.com/ialopezg/CommonJS/issues"
   },
   "homepage": "https://github.com/ialopezg/CommonJS#readme",
-  "peerDependencies": {
+  "dependencies": {
     "bcrypt": "^5.1.0"
   },
   "devDependencies": {
