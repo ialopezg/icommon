@@ -43,10 +43,7 @@
   "bugs": {
     "url": "https://github.com/ialopezg/CommonJS/issues"
   },
-  "homepage": "https://github.com/ialopezg/CommonJS#readme",
-  "dependencies": {
-    "bcrypt": "^5.1.0"
-  },
+  "homepage": "https://github.com/ialopezg/CommonJS",
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
