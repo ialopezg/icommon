@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/ialopezg/CommonJS/compare/v1.0.3...v1.0.4) (2022-12-12)
+
+
+### Bug Fixes
+
+* remove hash helper because error with react apps ([fe09732](https://github.com/ialopezg/CommonJS/commits/fe0973255d292d046f71a63cb7007f319d09ee6b))
+* remover bcrypt dependency ([90fd381](https://github.com/ialopezg/CommonJS/commits/90fd38138bb0a2ba6e3156648c0631a3a0277743))
+
 ### [1.0.3](https://github.com/ialopezg/CommonJS/compare/v1.0.2...v1.0.3) (2022-12-12)
 
 ### [1.0.2](https://github.com/ialopezg/CommonJS/compare/v1.0.1...v1.0.2) (2022-12-12)
