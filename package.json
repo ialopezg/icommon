@@ -2,7 +2,7 @@
   "name": "@ialopezg/commonjs",
   "version": "1.0.0",
   "description": "JavaScript Library Starter Kit for modern apps and libraries.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "private": false,
   "scripts": {
     "prebuild": "rimraf lib",
