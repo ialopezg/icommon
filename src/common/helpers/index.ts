@@ -4,6 +4,7 @@ export * from './is-boolean.helper';
 export * from './is-constructor.helper';
 export * from './is-date.helper';
 export * from './is-empty.helper';
+export * from './is-equal.helper';
 export * from './is-function.helper';
 export * from './is-nil.helper';
 export * from './is-not-empty.helper';
