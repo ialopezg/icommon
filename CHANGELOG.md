@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.8](https://github.com/ialopezg/CommonJS/compare/v1.0.7...v1.0.8) (2023-01-23)
+
+
+### Features
+
+* add isEqual function (initial version: array, objects, strings, numbers, and boolean supported) ([421bf5a](https://github.com/ialopezg/CommonJS/commits/421bf5a6998c94e2f3c37ed1a3e9fd1d8f6478bc))
+
 ### [1.0.7](https://github.com/ialopezg/CommonJS/compare/v1.0.6...v1.0.7) (2023-01-08)
 
 
