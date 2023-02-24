@@ -7,7 +7,7 @@ import { isString } from './is-string.helper';
 export const equalConstructor = <T, U extends T>(a: T, b: U): boolean => false;
 
 /**
- * Whether given objects are equals. Comparisson is against content.
+ * Whether given objects are equals. Comparison is against content.
  *
  * @param {Object | Array | string | number | boolean} a Object to be analyzed.
  * @param {Object | Array | string | number | boolean} b Object to be analyzed.
