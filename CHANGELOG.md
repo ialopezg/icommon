@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.9](https://github.com/ialopezg/CommonJS/compare/v1.0.8...v1.0.9) (2023-02-24)
+
+
+### Features
+
+* add zeroise function ([44cf062](https://github.com/ialopezg/CommonJS/commits/44cf062b28daaaf37511abba0f4e1b564fb114e1))
+
+
+### Documentation
+
+* fix JSDocs ([5681204](https://github.com/ialopezg/CommonJS/commits/5681204b95d3a4babec1d5ce26447924a44164f8))
+
 ### [1.0.8](https://github.com/ialopezg/CommonJS/compare/v1.0.7...v1.0.8) (2023-01-23)
 
 
