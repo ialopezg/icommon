@@ -1,6 +1,6 @@
 {
   "name": "@ialopezg/commonjs",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "JavaScript Library Starter Kit for modern apps and libraries.",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -16,7 +16,8 @@
     "release:major": "standard-version --release-as major",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prepublish": "npm run build"
   },
   "husky": {
     "hooks": {
