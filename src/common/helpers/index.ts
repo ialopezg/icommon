@@ -12,6 +12,7 @@ export * from './is-number.helper';
 export * from './is-object.helper';
 export * from './is-string.helper';
 export * from './is-undefined.helper';
+export * from './object.helper';
 export * from './path.helper';
 export * from './set-value-for.helper';
 export * from './string.helper';
