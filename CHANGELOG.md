@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/ialopezg/CommonJS/compare/v1.1.0...v1.1.1) (2023-05-01)
+
+
+### Bug Fixes
+
+* bug fixes & other improvements ([d034355](https://github.com/ialopezg/CommonJS/commits/d0343554e0d4c746d3c264072aab20b61d1181a3))
+
 ## [1.1.0](https://github.com/ialopezg/CommonJS/compare/v1.0.10...v1.1.0) (2023-03-22)
 
 ### [1.0.10](https://github.com/ialopezg/CommonJS/compare/v1.0.9...v1.0.10) (2023-02-24)
