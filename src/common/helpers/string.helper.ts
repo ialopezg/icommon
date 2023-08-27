@@ -17,7 +17,7 @@ export const camelize = (value: string) => {
  *
  * @returns Text with first char capitalized.
  */
-export const capitalizeFirst = (text: string) => {
+export const capitalize = (text: string) => {
   return `${text.charAt(0).toUpperCase()}${text.slice(1)}`;
 };
 

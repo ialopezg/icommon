@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import { camelize, capitalizeFirst, padLeft, padRight, zeroise } from '../../helpers';
+import { camelize, capitalize, padLeft, padRight, zeroise } from '../../helpers';
 
 describe('string', () => {
   it('should camelize a string value', () => {
@@ -15,7 +15,7 @@ describe('string', () => {
   it('should return a capitalized word', () => {
     const word = 'word';
 
-    expect(capitalizeFirst(word)).to.be.eql('Word');
+    expect(capitalize(word)).to.be.eql('Word');
   });
 
   it('should return a zeroized value', () => {
