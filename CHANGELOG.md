@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/ialopezg/CommonJS/compare/v1.1.2...v1.1.3) (2023-09-06)
+
+
+### Features
+
+* improve capitalize function ([a38d53f](https://github.com/ialopezg/CommonJS/commits/a38d53fba548c3f47b6efb0514283a6524437619))
+* refactor capitalizeFirst to capitalize function ([1d2c1ac](https://github.com/ialopezg/CommonJS/commits/1d2c1acb9e8a015f0c1d726a7640194d2c09bed8))
+
 ### [1.1.2](https://github.com/ialopezg/CommonJS/compare/v1.1.1...v1.1.2) (2023-05-01)
 
 ### [1.1.1](https://github.com/ialopezg/CommonJS/compare/v1.1.0...v1.1.1) (2023-05-01)
