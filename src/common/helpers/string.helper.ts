@@ -13,12 +13,12 @@ export const camelize = (value: string) => {
  *
  * If word is capitalized this will be lowercased then the first char will be capitalized.
  *
- * @param text text to be transformed.
+ * @param value text to be transformed.
  *
  * @returns Text with first char capitalized.
  */
-export const capitalize = (text: string) => {
-  return `${text.charAt(0).toUpperCase()}${text.slice(1)}`;
+export const capitalize = (value: string) => {
+  return `${value.charAt(0).toUpperCase()}${value.slice(1)}`;
 };
 
 /**
@@ -36,10 +36,10 @@ export const capitalize = (text: string) => {
 export const pad = (
   value: unknown,
   threshold?: number,
-  direction?: 'LEFT' | 'RIGHT',
-  pad?: string,
+  direction?: "LEFT" | "RIGHT",
+  pad?: string
 ): string => {
-  pad = pad ? pad : '0';
+  pad = pad ? pad : "0";
   const str = String(value);
   const length = str.length;
 
@@ -47,16 +47,17 @@ export const pad = (
     return str;
   }
 
-  direction = direction ? direction : 'LEFT';
-  if (direction === 'LEFT') {
+  direction = direction ? direction : "LEFT";
+  if (direction === "LEFT") {
     return Array(threshold - length + 1).join(pad) + str;
   }
 
   return str + Array(threshold - length + 1).join(pad);
 };
 
-export const zeroise = (value: unknown, threshold: number, direction?: 'LEFT' | 'RIGHT') => pad(value, threshold, direction);
+export const zeroise = (value: unknown, threshold: number, direction?: "LEFT" | "RIGHT") =>
+  pad(value, threshold, direction);
 
-export const padLeft = (value: unknown, threshold: number) => pad(value, threshold, 'LEFT');
+export const padLeft = (value: unknown, threshold: number) => pad(value, threshold, "LEFT");
 
-export const padRight = (value: unknown, threshold: number) => pad(value, threshold, 'RIGHT');
+export const padRight = (value: unknown, threshold: number) => pad(value, threshold, "RIGHT");
