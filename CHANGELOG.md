@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.6](https://github.com/ialopezg/CommonJS/compare/v1.1.5...v1.1.6) (2023-09-07)
+
+
+### Features
+
+* clean code ([5f5d11c](https://github.com/ialopezg/CommonJS/commits/5f5d11ca3f182fc5558fb1d0cfc92171f1be537a))
+* improve string helper ([e05b8dc](https://github.com/ialopezg/CommonJS/commits/e05b8dc2245f9e1033fda97e4c0506b46a38f62e))
+
 ### [1.1.5](https://github.com/ialopezg/CommonJS/compare/v1.1.4...v1.1.5) (2023-09-06)
 
 ### [1.1.4](https://github.com/ialopezg/CommonJS/compare/v1.1.3...v1.1.4) (2023-09-06)
