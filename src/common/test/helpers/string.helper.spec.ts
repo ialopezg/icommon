@@ -13,7 +13,7 @@ describe('string', () => {
   });
 
   it('should return a capitalized word', () => {
-    const word = 'word';
+    const word = 'WORD';
 
     expect(capitalize(word)).to.be.eql('Word');
   });
