@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/ialopezg/CommonJS/compare/v1.1.6...v1.2.0) (2023-09-10)
+
+
+### Features
+
+* add greater and less than decorators ([e764278](https://github.com/ialopezg/CommonJS/commits/e7642785d5cbc2da0e550399b3446fae28e9bcca))
+
 ### [1.1.6](https://github.com/ialopezg/CommonJS/compare/v1.1.5...v1.1.6) (2023-09-07)
 
 
