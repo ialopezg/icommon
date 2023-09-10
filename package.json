@@ -46,6 +46,9 @@
     "url": "https://github.com/ialopezg/CommonJS/issues"
   },
   "homepage": "https://github.com/ialopezg/CommonJS",
+  "peerDependencies": {
+    "class-validator": ">=0.14"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
