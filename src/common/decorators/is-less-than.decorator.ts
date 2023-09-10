@@ -1,31 +1,31 @@
-// file validators/greater-than.decorator.ts
+// file validators/is-less-than.decorator.ts
 import { registerDecorator, ValidationOptions } from 'class-validator';
 
 /**
- * Checks if a value is a number and greater than given referenced value.
+ * Checks if a value is a number and less than given referenced value.
  *
  * @param {number} threshold Reference value
  * @param {ValidationOptions} validationOptions Validation options
  *
  * @constructor
  */
-export function GreaterThan(
+export function IsLessThan(
   threshold: number,
   validationOptions?: ValidationOptions,
 ) {
   return function (object: Object, propertyName: string) {
     registerDecorator({
-      name: 'greaterThan',
+      name: 'isLessThan',
       target: object.constructor,
       propertyName: propertyName,
       constraints: [threshold],
       options: {
-        message: `Value must be greater than [${threshold}]`,
+        message: `Value must be less than [${threshold}]`,
         ...validationOptions,
       },
       validator: {
         validate(value: any) {
-          return typeof value === 'number' && value > threshold;
+          return typeof value === 'number' && value < threshold;
         },
       },
     });
