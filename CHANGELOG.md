@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.3](https://github.com/ialopezg/CommonJS/compare/v1.2.2...v1.2.3) (2023-09-10)
+
+
+### Bug Fixes
+
+* refactor decorator function names ([96358ca](https://github.com/ialopezg/CommonJS/commits/96358cad790b1ca0b430e6ceac263e7a7481152a))
+
 ### [1.2.2](https://github.com/ialopezg/CommonJS/compare/v1.2.1...v1.2.2) (2023-09-10)
 
 
